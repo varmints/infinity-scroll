@@ -1,0 +1,16 @@
+{
+  "name": "infinity-scroll",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel serve ./src/index.html",
+    "prebuild": "rm -rf dist",
+    "build": "parcel build ./src/index.html --public-url ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.2"
+  }
+}
